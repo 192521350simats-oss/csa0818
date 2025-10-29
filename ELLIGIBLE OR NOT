@@ -1,0 +1,12 @@
+Age=int(input('Enter a number'))
+if(Age>18):
+     print('The person is elligble for voting')
+else:
+     print('The person is not elligble for voting')
+ 
+OUTPUT
+Enter a number 78
+The person is elligble for voting
+
+Enter a number 7
+The person is not elligble for voting
