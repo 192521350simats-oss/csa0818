@@ -1,0 +1,12 @@
+N=int(input('Enter a number'))
+if(N>0):
+     print('It is a positive no')
+else:
+     print('It is a negative no')
+
+OUTPUT
+Enter a number3
+It is a positive no
+
+Enter a number-8
+It is a negative no
