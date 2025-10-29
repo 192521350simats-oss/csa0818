@@ -1,0 +1,11 @@
+N=int(input('Enter a number'))
+S=0
+while N>0:
+ R=N%10
+ S=S+R
+ N=N//10
+print(S)
+
+OUTPUT
+Enter a number 123
+6
