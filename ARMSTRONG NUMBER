@@ -1,0 +1,16 @@
+N=int(input('Enter a number'))
+S=0
+T=N
+while T>0:
+ R=T%10
+ S=S+(R*R*R)
+ T=T//10
+if N==S:
+  print("It is a armstrong")
+else:
+  print("It is not a armstrong")
+
+OUTPUT
+Enter a number153
+It is a armstrong
+
