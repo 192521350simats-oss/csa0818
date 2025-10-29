@@ -1,0 +1,13 @@
+N=int(input('Enter a number'))
+if(N%2==0):
+     print('It is a even no')
+else:
+     print('It is a odd no')
+
+OUTPUT
+Enter a number 6
+It is a even no
+
+Enter a number 9
+It is a odd no
+
