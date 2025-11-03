@@ -1,0 +1,6 @@
+text = "Hello, how are you doing?"
+word_count = len(text.split())
+print(f"The number of words in the string is: {word_count}")
+
+OUTPUT
+The number of words in the string is: 5
