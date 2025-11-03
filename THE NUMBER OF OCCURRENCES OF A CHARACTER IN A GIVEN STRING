@@ -1,0 +1,7 @@
+text="hello world 100 times"
+char_to_count='l'
+count=text.count(char_to_count)
+print(f"The character '{char_to_count}' appears {count} times.")
+
+OUTPUT
+The character 'l' appears 3 times.
