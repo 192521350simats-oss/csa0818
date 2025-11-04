@@ -1,0 +1,8 @@
+text = input("Enter a string: ")
+result = text.title()
+print("Capitalized string:", result)
+
+OUTPUT
+Enter a string: hello world python programming
+Capitalized string: Hello World Python Programming
+
