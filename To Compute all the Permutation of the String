@@ -1,0 +1,32 @@
+import itertools
+string = "abc"
+for p in itertools.permutations(string):
+    print("".join(p))
+
+OUTPUT
+abc
+acb
+bac
+bca
+cab
+cba
+
+itertools is a built-in Python module that contains ready-made tools for working with combinations, permutations, and other sequence-related operations.
+itertools.permutations(string) automatically gives all possible arrangements of the letters.
+itertools.permutations(string) doesn’t give strings directly.
+It gives a sequence of tuples — each tuple containing one possible arrangement of the letters(p = ('y', 'u', 'p'))
+The empty quotes "" mean we want to join the characters together with nothing in between.
+join(p) joins each tuple (like ('a', 'b', 'c')) into a string "abc"
+
+If p = ('y', 'u', 'p')
+"".join(p)
+joins them without spaces → "yup"
+
+But if you used
+" ".join(p)
+joins them with spaces → "y u p"
+
+Or
+"-".join(p)
+joins them with a dash → "y-u-p"
+
